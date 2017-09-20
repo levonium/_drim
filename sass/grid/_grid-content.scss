@@ -1,0 +1,32 @@
+.content-grid {
+  display: grid;
+  grid-gap: $gap_main;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "primary secondary";
+}
+
+.template-full-width .content-grid,
+.template-fixed-width .content-grid {
+  grid-template-columns: 1fr;
+  grid-template-areas: "primary" "secondary";
+}
+
+.content-grid-item {
+  padding: $grid_item_padding;
+  background-color: $grid_item_bgcolor;
+}
+
+#primary {
+  grid-area: primary;
+}
+
+#secondary {
+  grid-area: secondary;
+}
+
+@media screen and (max-width: $sm__width) {
+  .content-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "primary" "secondary";
+  }
+}

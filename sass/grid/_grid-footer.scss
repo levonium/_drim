@@ -1,0 +1,15 @@
+.footer-grid {
+  display: grid;
+  grid-gap: $gap_main;
+  grid-template-columns: 1fr;
+  grid-template-areas: "site-info";
+}
+
+.footer-grid-item {
+  padding: $grid_item_padding;
+  background-color: $grid_item_bgcolor;
+}
+
+.site-info {
+  grid-area: site-info;
+}

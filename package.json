@@ -1,0 +1,21 @@
+{
+  "name": "drim",
+  "version": "1.0.0",
+  "description": "a starter WP theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "_drim"
+  },
+  "author": "Levon Avetyan",
+  "license": "ISC",
+  "devDependencies": {
+    "grant": "^3.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

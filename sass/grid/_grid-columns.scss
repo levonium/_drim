@@ -1,0 +1,58 @@
+.grid.twelve-fix {
+  grid-template-columns: repeat(12, 1fr ) ;
+  margin-bottom: 1em;
+}
+
+
+.grid-item.one-item {
+}
+.grid-item.two-items {
+  grid-column: span 2;
+}
+.grid-item.three-items {
+  grid-column: span 3;
+}
+.grid-item.four-items {
+  grid-column: span 4;
+}
+.grid-item.five-items {
+  grid-column: span 5;
+}
+.grid-item.six-items {
+  grid-column: span 6;
+}
+.grid-item.seven-items {
+  grid-column: span 7;
+}
+.grid-item.eight-items {
+  grid-column: span 8;
+}
+.grid-item.nine-items {
+  grid-column: span 9;
+}
+.grid-item.ten-items {
+  grid-column: span 10;
+}
+.grid-item.eleven-items {
+  grid-column: span 11;
+}
+.grid-item.twelwe-items {
+  grid-column: span 12;
+}
+
+@media screen and (max-width: $sm__width) {
+  .grid-item.one-item,
+  .grid-item.two-items,
+  .grid-item.three-items,
+  .grid-item.four-items,
+  .grid-item.five-items,
+  .grid-item.six-items,
+  .grid-item.seven-items,
+  .grid-item.eight-items,
+  .grid-item.nine-items,
+  .grid-item.ten-items,
+  .grid-item.eleven-items,
+  .grid-item.twelwe-items {
+    grid-column: span 12;
+  }
+}
