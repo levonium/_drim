@@ -784,6 +784,29 @@ a {
 # Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+## Page Templates
+--------------------------------------------------------------*/
+.site {
+  width: 1200px; }
+
+.page-template-full-width .site {
+  width: 100%; }
+  .page-template-full-width .site .site-header .header-wrapper {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-template-full-width .site .site-footer .footer-wrapper {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.page-template-sidebar-left .content-grid {
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "secondary primary"; }
+
+/*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 .sticky {

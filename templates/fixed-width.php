@@ -1,11 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Fixed Width
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * This is the template that displays pages with fixed width.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -34,5 +31,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+
 get_footer();

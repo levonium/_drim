@@ -159,7 +159,7 @@ if ( ! function_exists( '_drim_woocommerce_wrapper_before' ) ) {
 	 */
 	function _drim_woocommerce_wrapper_before() {
 		?>
-		<div id="primary" class="content-area">
+		<div id="primary" class="content-area content-grid-area">
 			<main id="main" class="site-main" role="main">
 		<?php
 	}
